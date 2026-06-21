@@ -216,3 +216,17 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Project-local virtual environments
+my-env/
+
+# Local browser/debug artifacts
+.playwright-mcp/
+
+# Runtime logs and generated scrape outputs
+source/logs/
+source/pagination_output/
+pagination_output/
+
+# Local artifact stores from production pipeline runs
+source/pagination_output/runs/
